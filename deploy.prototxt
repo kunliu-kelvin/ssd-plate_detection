@@ -1544,11 +1544,11 @@ layer {
       top_k: 400
     }
     save_output_param {
-      output_directory: "/home/huangyuhui/data/plate/results/SSD_300x300/Main"
+      output_directory: "/home/kun/ssd-plate_detection/data/plate/results/SSD_300x300/Main"
       output_name_prefix: "comp4_det_test_"
       output_format: "VOC"
-      label_map_file: "data/plate/labelmap_plate.prototxt"
-      name_size_file: "/home/huangyuhui/ssd-plate_detection/test_name_size.txt"
+      label_map_file: "/home/kun/ssd-plate_detection/data/plate/labelmap_plate.prototxt"
+      name_size_file: "/home/kun/ssd-plate_detection/test_name_size.txt"
       num_test_image: 1
     }
     code_type: CENTER_SIZE
